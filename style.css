@@ -1,12 +1,227 @@
 body {
-  font-family: sans-serif;
-  background: lightgray;
+  background: rgb(255, 255, 255);
+  font-family: 'Nanum Myeongjo';
+  font-weight: 400;
+}
+*{
+  padding: 0;
+}
+.page1{ 
+  
+  line-height: 0rem;
+  font-size: 59px;
+  text-align: center;
+  letter-spacing: -3px;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  height: calc(100% - 40px); 
+  background-color: #fff;
+  height: 768px;
 }
 
-h2 {
-  break-before: page;
+span{
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  color: #42FF00;
+  line-height: 0rem;
+  font-size: 59px;
+  transform: rotate(15deg);
+  text-align: center;
+}
+.page2{ 
+  position: relative;
+  top: 0px;
+  font-weight: 400;
+  line-height: 1.1rem;
+  font-size: 52px;
+  text-align: left;
+  letter-spacing: 1px;
+  
+
+}
+.number{
+  position: relative;
+  left:20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  
+  line-height: 1rem;
+  font-size: 59px;
+  
+
+}
+.img1{
+  z-index: 99;
+  position: relative;
+  left:5%;
+  top: 90px;
+}
+.img2{
+  z-index: 99;
+  position: relative;
+  left:5%;
+  top: 90px;
 }
 
+.page3{
+  position: relative;
+  font-weight: 400;
+  line-height: 0.5rem;
+  text-align: left;
+}
+.caption1{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.tittle1{
+  position: relative;
+  top: 395px;
+  left: 20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 4.5rem;
+  letter-spacing: 3px;
+}
+.number2{
+  position: relative;
+  top: 0px;
+  color: #42FF00;
+  left:20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  line-height: 1.1rem;
+  font-size: 59px;
+  z-index: 99;
+}
+
+.page5{
+  position: relative;
+  font-weight: 400;
+  line-height: 0.5rem;
+  text-align: left;
+}
+.caption2{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.img3{
+  position: relative;
+left: 0;
+  top: 0px;
+}
+
+.tittle2{
+  position: relative;
+  top: 465px;
+  left: 20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 4.5rem;
+  letter-spacing: 3px;
+}
+.img4{
+  position: relative;
+left: -15px;
+  top: 0px;
+}
+.img5{
+  position: relative;
+left: 0;
+  top: 0px;
+}
+
+.img6{
+  position: relative;
+  left: 20px;
+  top:330px;
+}
+.page8{
+  position: relative;
+  font-weight: 400;
+  line-height: 0.5rem;
+  text-align: left;
+}
+.tittle3{
+  position: relative;
+  top: 337px;
+  left: 20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 4.5rem;
+  letter-spacing: 3px;
+}
+.img7{
+  z-index: 99;
+  position: relative;
+  left:0%;
+  top: -2px;
+}
+.page8{
+  position: relative;
+  font-weight: 400;
+  line-height: 0.5rem;
+  text-align: left;
+}
+.tittle4{
+  position: relative;
+  top: 367px;
+  left: 20px;
+  font-family: 'Nanum Myeongjo' ;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 4.5rem;
+  letter-spacing: 3px;
+}
+.img8{
+  z-index: 99;
+  position: relative;
+  left:-4px;
+  top: 0px;
+}
+.img9{
+  z-index: 99;
+  position: relative;
+  left:-3px;
+  top: 0px;
+}
+.img10{
+  z-index: 99;
+  position: relative;
+  padding: 10px;
+  left:10px;
+  top: 156px;
+  filter: grayscale(1);
+}
+.img11{
+  z-index: 99;
+  position: relative;
+  padding: 10px;
+  left:10px;
+  top: 289px;
+  filter: grayscale(1);
+
+  mix-blend-mode:multiply;
+}
+.page16{
+  line-height: 0rem;
+  font-size: 59px;
+  text-align: center;
+  letter-spacing: -3px;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  height: calc(100% - 40px); 
+  background-color: #42FF00;
+  height: 768px;
+}
 @media print {
   body {
     background: white;
@@ -15,14 +230,17 @@ h2 {
 
 @page {
   size: 5in 8in;
-  margin-top: 0.25in;
-  margin-bottom: 0.5in;
+  margin-top: 0in;
+  margin-bottom: 0in;
+
 }
 @page:left {
-  margin-left: 0.25in;
-  margin-right: 1in;
+  margin-left: 0in;
+  margin-right: 0in;
 }
 @page:right {
-  margin-left: 1in;
-  margin-right: 0.25in;
+  margin-left: 0in;
+  margin-right: 0in;
+  background-color: #42FF00;
+
 }
